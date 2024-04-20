@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+<div>
+    <div id="notificationbar"
+        class="bg-black text-whiteflex flex justify-center p-3 text-white gap-20 font-semibold text-2xl">
+        <h1>Sign Up and GET 20% OFF for your first Order</h1>
+        <h1 id="notification_close" class="cursor-pointer">X</h1>
+    </div>
+    <!-- creating a menu bar -->
+
+
+    <div id="menu_bar" class="flex justify-between text-black p-4 z-10 sticky top-0 bg-white">
+        <h1 class="font-bold text-3xl">Nostra</h1>
+        <div id="menu_bar_menus" class="md:flex gap-20 cursor-pointer hidden" style="font-size: medium;">
+            <a href="index.html">
+                <p class="hover:underline">Home</p>
+            </a>
+
+            <a href="collection.html">
+                <p class="hover:underline">Collections</p>
+            </a>
+            <p class="hover:underline">Contact Us</p>
+
+
+        </div>
+        <div id="menu_bar_mobile" class="md:hidden cursor-pointer"><i class="fa-solid fa-bars "></i></div>
+
+    </div>
+    <!-- creating a menumobile bar -->
+
+    <div id="sidenav" class="bg-black  top-0 right-0 text-center  z-30 fixed md:hidden   transition-all duration-1000"
+        style="width: 50%; height: 100vh; right: -50%;">
+        <div>
+            <p id="sidenav_close" class="text-right p-5 cursor-pointer text-white">X</p>
+        </div>
+        <ul id="sidenav_sub " class="flex flex-col gap-4 pt-30">
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white"><a
+                    href="index.html">Home</a></li>
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white"><a href="collection.html">Collections</a>
+                </li>
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white">
+                 Contact Us</li>
+        </ul>
+    </div>
+    <!-- creating a contact   bar -->
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+
+
+
+    <!-- creating a news letter    bar -->
+    <div class="ml-4 mr-4 mt-6 flex flex-col items-center news">
+        <h1 class="text-5xl font-bold m-1">Join our News Letter
+        </h1>
+        <h2 class="text-3xl font-mediumm m-1">Signup for our email newspaper to get exclusive discounts,
+            updates,
+            and more</h2>
+        <input type="text" style="width: 90%; border: solid 2px black; height: 40px; font-size: 100%; "
+            class="m-1 rounded-xl pl-2">
+        <button class="bg-black text-white rounded-xl p-5 m-1 text-xl">Subscribe -></button>
+    </div>
+    <!-- creating a last lootrer   bar -->
+    <div class="bg-black mt-4" style="width: 100%; height: 400px;">
+        <div class="flex flex-col pt-20 gap-4 lasts">
+            <h1 class="text-5xl font-bold text-white">Nostra</h1>
+            <p class="text-3xl font-bold text-white">The Standard chunk of Lorem Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Commodi, quos. ipsum used since the 1500s is reprodused below for
+                those interest</p>
+            <p class="text-3xl font-bold text-white"><i class="fa-brands fa-instagram"></i> <i
+                    class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-facebook"></i></p>
+            <h1 class="text-3xl font-bold text-white">@nostra.com</h1>
+        </div>
+    </div>
+</div><script src="script2.js"></script>

@@ -1,0 +1,218 @@
+#btn:hover {
+  opacity: 0.7;
+
+  transform: translateY(-5px);
+
+
+}
+
+#btn:hover {
+  transform: translateY(5px);
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  #notificationbar{
+    font-size: 17px;
+  }
+  #menu_bar h1{
+    font-size: 28px;
+  }
+  
+#menu_bar_mobile{
+  font-size: 25px;
+}
+#screenshot{
+  width: 700px;
+  height: 400px;
+  background-image: url(./nostra_img/slider-one.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hone{
+  font-size: 35px;
+  text-align: center;
+}
+.brands_sub{
+  display: flex;
+  align-items: center;
+}
+.aj{
+  font-size: 25px;
+}
+.brandstypes h1{
+  
+ font-size: 12px;
+}
+.customer{
+  font-size: 25px;
+}
+#customerreviews{
+  font-size: 10px;
+}
+#trans h1{
+font-size: 25px;}
+#mainly{
+  position: relative;
+}
+.cm{
+  display: flex;
+  flex-direction: column;
+
+}.ba{font-size: 25px;}
+
+.pu{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+}
+#nk{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+position: absolute;
+top: 290px;
+margin-left: 22%;}
+.mostwant{
+  font-size: 25px;
+padding: 10px;
+position: relative;}
+#mostwanted{
+  position: relative;
+}
+.mwone{
+  width: 1400px;
+  margin-left: 20%;
+  height: auto;
+display: flex;
+gap: 30px;
+flex-direction: column;
+}
+.mwtwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  gap: 30px;
+  top: 20px;
+  margin-left: 70px;
+
+}
+.mwthree{
+  display: flex;
+  flex-direction: column;
+  position: absolute;  top: 80px;
+  margin-left: 120px;
+
+}
+.screenshotsub{
+  font-size: 16px;
+}
+.screenshotsub h1{ text-align: center;}
+.ttone{
+  width: 500px;
+  height: 500px;
+  font-size: 16px;
+}
+.news h1{
+  font-size: 35px;
+}.news h2{font-size: 20px;
+text-align: center;}
+.lasts h1{
+ font-size: 30px;
+}
+.lasts p  {
+  font-size: 20px;
+}
+#navigation_button_left{display: none;}
+#navigation_button_right{
+  display: none;
+}
+#product{
+  font-size: 16px;
+  width: 200px;
+}
+#product h1{
+  font-size: 20px;
+}
+#product p{
+  font-size: 10px;
+}
+.first img{
+  width: 200px;
+}
+.f img{
+  width: 500px;
+  height: 400px;
+
+}
+#product h1{
+  font-size: 10px;
+}
+#product img{
+
+size: 300px;
+margin-left: 16%;
+}
+#product{
+  display: flex;
+  flex-direction: column;
+  text-align: center;align-items: center;
+}
+.ob h1{
+  font-size: 22px;
+}
+.ob label{
+  font-size: 16px;
+}
+}

@@ -1,0 +1,196 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+
+<div>
+    <div id="notificationbar"
+        class="bg-black text-whiteflex flex justify-center p-3 text-white gap-20 font-semibold text-2xl">
+        <h1>Sign Up and GET 20% OFF for your first Order</h1>
+        <h1 id="notification_close" class="cursor-pointer">X</h1>
+    </div>
+    <!-- creating a menu bar -->
+
+    <div id="menu_bar" class="flex justify-between text-black p-4 z-10 sticky top-0 bg-white">
+        <h1 class="font-bold text-3xl">Nostra</h1>
+        <div id="menu_bar_menus" class="md:flex gap-20 cursor-pointer hidden" style="font-size: medium;">
+            <a href="index.html">
+                <p class="hover:underline">Home</p>
+            </a>
+
+
+            <p class="hover:underline">Collections</p>
+
+            <a href="contact.html">
+                <p class="hover:underline">Contact Us</p>
+            </a>
+
+
+        </div>
+        <div id="menu_bar_mobile" class="md:hidden cursor-pointer"><i class="fa-solid fa-bars "></i></div>
+
+
+    </div>
+    <!-- creating a menumobile bar -->
+
+    <div id="sidenav" class="bg-black  top-0 right-0 text-center  z-30 fixed md:hidden   transition-all duration-1000"
+        style="width: 50%; height: 100vh; right: -50%;">
+        <div>
+            <p id="sidenav_close" class="text-right p-5 cursor-pointer text-white">X</p>
+        </div>
+        <ul id="sidenav_sub " class="flex flex-col gap-4 pt-30">
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white"><a
+                    href="index.html">Home</a></li>
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white">
+                Collections</li>
+            <li class="hover:underline hover:bg-black-200 cursor-pointer transform hover:scale-95 text-white"><a
+                    href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- creating a check menu bar -->
+    <div class="flex gap-12">
+        <div class="ml-4 flex flex-col gap-6 ob ">
+            <div>
+                <h1 class="text-3xl font-bold">Occasion</h1>
+                <input type="checkbox" style="transform: scale(1.5);" id="one"> <label
+                    class="text-2xl font-semibold">Summer</label><br>
+                <input type="checkbox" style="transform: scale(1.5);" id="two"> <label
+                    class="text-2xl font-semibold">Party</label><br>
+
+                <input type="checkbox" style="transform: scale(1.5);" id="three"> <label class="text-2xl font-semibold">
+                    Beach</label>
+
+            </div>
+            <div>
+                <h1 class="text-3xl font-bold">color</h1>
+                <input type="checkbox" style="transform: scale(1.5);" id="four"> <label
+                    class="text-2xl font-semibold">Red</label><br>
+                <input type="checkbox" style="transform: scale(1.5);" id="five"> <label
+                    class="text-2xl font-semibold">Blue</label><br>
+
+                <input type="checkbox" style="transform: scale(1.5);" id="six"> <label
+                    class="text-2xl font-semibold">White</label><br>
+                <input type="checkbox" style="transform: scale(1.5);" id="seven"> <label
+                    class="text-2xl font-semibold">Green</label>
+
+
+            </div>
+            <div>
+                <h1 class="text-3xl font-bold">Arrivals</h1>
+                <input type="checkbox" style="transform: scale(1.5);" id="eight"> <label
+                    class="text-2xl font-semibold">Latest</label><br>
+                <input type="checkbox" style="transform: scale(1.5);" id="nine"> <label
+                    class="text-2xl font-semibold">Popular</label>
+
+
+
+
+            </div>
+        </div>
+        <!-- creating a dress menu bar -->
+        <div style="border-left: solid 4px black; ">
+            <div class="relative mb-2">
+                <input type="text" placeholder="Search here....."
+                    style="width: 90%; border: solid 2px black; height: 40px; font-size: 100%; "
+                    class="m-1 ml-9 rounded-xl pl-2" id="search">
+                <i class="fa-solid fa-magnifying-glass text-2xl absolute cursor-pointer" style="left: 90%; top: 10px; "
+                    id="search_icon"></i>
+            </div>
+            <div class="flex justify-between ml-5 flex-wrap mb-4" id="product">
+                <div style="flex-basis: calc(33%); margin-bottom: 5px; " class=" first firstexcept">
+                    <img src="./nostra_img/c1.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Floral Summer Shirt-edition1
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" first first-ones first-ones11">
+                    <img src="./nostra_img/c2.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Floral Summer Shirt-edition2
+                    </h1>
+                    <p class="font-bold">$30</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" second">
+                    <img src="./nostra_img/c3.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Party Floral Shirt-edition1
+
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" first first-ones2  first-ones12">
+                    <img src="./nostra_img/c4.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Floral Summer Shirt-edition3
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" first first-ones3 first-ones13">
+                    <img src="./nostra_img/c5.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Floral Summer Shirt-edition4
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" third third-one1">
+                    <img src="./nostra_img/c6.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Beach Shirt-edition1
+
+                    </h1>
+                    <p class="font-bold">$50</p>
+
+                </div>
+                <div style="flex-basis: calc(33%) ; margin-bottom: 5px;" class="second second-one second-one11">
+                    <img src="./nostra_img/c3 - Copy.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Shirt Party Red-edition2
+
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px;" class=" third third-one ">
+                    <img src="./nostra_img/c1 - Copy.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Beach Floral Shirt-edition2
+
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+                <div style="flex-basis: calc(33%); margin-bottom: 5px; " class="first first-ones4 first-ones14">
+                    <img src="./nostra_img/c5.jpg" style="width: 80%; height: auto;">
+                    <h1 class="text-xl font-bold">Floral Summer Shirt-edition5
+                    </h1>
+                    <p class="font-bold">$20</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- creating a join us   bar -->
+
+    <div class="ml-4 mr-4 mt-6 flex flex-col items-center news">
+        <h1 class="text-5xl font-bold m-1">Join our News Letter
+        </h1>
+        <h2 class="text-3xl font-mediumm m-1">Signup for our email newspaper to get exclusive discounts, updates,
+            and more</h2>
+        <input type="text" style="width: 90%; border: solid 2px black; height: 40px; font-size: 100%; "
+            class="m-1 rounded-xl pl-2">
+        <button class="bg-black text-white rounded-xl p-5 m-1 text-xl">Subscribe -></button>
+    </div>
+    <!-- creating a last lootrer   bar -->
+    <div class="bg-black mt-4 lasts" style="width: 100%; height: 400px; ">
+        <div class="flex flex-col pt-20 gap-4">
+            <h1 class="text-5xl font-bold text-white">Nostra</h1>
+            <p class="text-3xl font-bold text-white">The Standard chunk of Lorem ipsum Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Ipsam, eos. since the 1500s is reprodused below for those interest</p>
+            <p class="text-3xl font-bold text-white"><i class="fa-brands fa-instagram"></i> <i
+                    class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-facebook"></i></p>
+            <h1 class="text-3xl font-bold text-white">@nostra.com</h1>
+        </div>
+    </div>
+</div>
+<script src="script1.js"></script>
